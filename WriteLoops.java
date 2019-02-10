@@ -20,7 +20,10 @@ public class WriteLoops {
 
         // Write a FOR loop that counts from 1 to 10.
             // calling
-            w = w + 1;
+            
+            for(int currentIndex = 0; currentIndex < 5; currentIndex++){
+                w = currentIndex + 1;
+            }
             // each time through the loop
 
         // this will tell the test how many times the loop executed.
@@ -32,7 +35,9 @@ public class WriteLoops {
 
         // Write a FOR loop that counts from 1 to 10.
         // calling
-        w = w + 1;
+        for(int currentIndex = 0; currentIndex < 10; currentIndex++){
+                w = currentIndex + 1;
+            }
         // each time through the loop
         
         return w;
@@ -43,7 +48,9 @@ public class WriteLoops {
 
         // Write a FOR loop that makes 10 iterations, start at 21.
         // calling
-        w = w + 1;
+        for(int currentIndex = 21; currentIndex > 9; currentIndex--){
+                w = currentIndex + 1;
+            }
         // each time through the loop
         
         return w;
@@ -54,6 +61,9 @@ public class WriteLoops {
 
         // Write a FOR loop that counts down from 100 to 0.
         // calling
+        for(int currentIndex = 0; currentIndex < 99; currentIndex++){
+                w = currentIndex + 1;
+            }
         w = w + 1;
         // each time through the loop
         
@@ -65,7 +75,9 @@ public class WriteLoops {
 
         // Write a FOR loop from 0 to 32 by 2s.
         // calling
-        w = w + 1;
+        for(int currentIndex = 0; currentIndex < 33; currentIndex += 2){
+                w = 0;
+            }
         // each time through the loop
         return w;
     }
@@ -75,9 +87,12 @@ public class WriteLoops {
 
         // Write a FOR loop from 1 to less than 5001 by 11s.
         // calling
-        w = w + 1;
-        // each time through the loop
+        for(int currentIndex = 1; currentIndex < 5001; currentIndex += 11){
+            w = w + 1;
+        }
         
+        // each time through the loop
+    
         return w;
     }
 
