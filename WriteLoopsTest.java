@@ -102,8 +102,6 @@ public class WriteLoopsTest
         assertEquals(6, writeLoo1.driveHome());
     }
 
-
-
     @Test
     public void TestCheckGameScore()
     {
